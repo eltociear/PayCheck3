@@ -187,6 +187,11 @@ namespace PayCheckServerLib.Responses
 
 			ActiveParties[party.Code] = party;
 
+			// remove empty parties
+			if (party.Members == new List<PartyJson.DataJson.MembersJson>()) {
+				ActiveParties.Remove(party.Code);
+			}
+
 			ResponseCreator response = new ResponseCreator(204);
 			session.SendResponse(response.GetResponse());
 			return true;
