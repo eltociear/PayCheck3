@@ -1,6 +1,9 @@
 # PayCheck3
 PayDay 3 (Beta Branch) Server emulator
 
+# BETA BRANCH CURRENTLY ON HOLD UNTIL I FINISH THE GAMESESSIONS AND PARTY IN MAIN BRANCH!
+
+
 Left to do (& Working on it):
 - WSS Response
 - Party and GameSessions
